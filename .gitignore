@@ -1,0 +1,8 @@
+*.iml
+.idea/
+*.properties
+assets/
+bin/
+gen/
+libs/
+*.txt
