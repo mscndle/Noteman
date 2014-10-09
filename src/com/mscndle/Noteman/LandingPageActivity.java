@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.app.Fragment;
 import android.os.Bundle;
 
-public class LandingPage extends SingleFragmentActivity {
+public class LandingPageActivity extends SingleFragmentActivity {
 
     public Fragment createFragment() {
         return new LandingPageFragment();

@@ -15,6 +15,7 @@ public class NotesList {
     private Context mAppContext;
     private ArrayList<Note> mNotesList;
 
+    //  private constructor for singleton
     private NotesList(Context appContext) {
         mAppContext = appContext;
         mNotesList = new ArrayList<Note>();

@@ -4,39 +4,52 @@
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:background="@android:color/background_light">
+              android:background="@android:color/white">
 
-    <ImageView
-        android:id="@+id/landing_icon"
-        android:layout_width="250dp"
-        android:layout_height="150dp"
-        android:src="@drawable/landing_title"
-        android:scaleType="fitXY"
-        android:layout_gravity="center"/>
-    
+    <!--<ImageView-->
+        <!--android:id="@+id/landing_icon"-->
+        <!--android:layout_width="250dp"-->
+        <!--android:layout_height="150dp"-->
+        <!--android:src="@drawable/landing_title"-->
+        <!--android:scaleType="fitXY"-->
+        <!--android:layout_gravity="center"/>-->
+
     <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="50dp"/>
+        android:id="@+id/landing_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        android:textSize="42sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="75dp"/>
+
 
     <Button
         android:id="@+id/new_note_button"
-        android:layout_width="250dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:typeface="monospace"
         android:text="@string/new_note"/>
 
     <Button
         android:id="@+id/notes_list_button"
-        android:layout_width="250dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:typeface="monospace"
         android:text="@string/notes_list"/>
 
     <Button
         android:id="@+id/search_by_tag_button"
-        android:layout_width="250dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:typeface="monospace"
         android:text="@string/search_by_tag"/>
 
 

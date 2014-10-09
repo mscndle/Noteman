@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">Noteman</string>
     <string name="landing_headline">MINIMAL DIGITAL NOTES</string>
-    <string name="new_note">Create new note</string>
-    <string name="notes_list">View notes list</string>
-    <string name="search_by_tag">Search by tag</string>
+    <string name="new_note">CREATE</string>
+    <string name="notes_list">LIST</string>
+    <string name="search_by_tag">SEARCH</string>
 </resources>
