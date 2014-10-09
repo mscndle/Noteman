@@ -9,8 +9,10 @@ import com.mscndle.Noteman.R;
 
 //
 //  Instantiates a new note
+//  This class is instantiated whenever an existing note is opened
+//  or a new note is created
 //
-public class NewNoteFragment extends Fragment {
+public class NoteFragment extends Fragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
