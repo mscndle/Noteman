@@ -1,4 +1,6 @@
-package com.mscndle.Noteman;
+package com.mscndle.Noteman.Data;
+
+import android.graphics.Color;
 
 import java.util.Date;
 import java.util.HashSet;
@@ -14,7 +16,9 @@ public class Note {
     private boolean mSynced; // to check if it should be updated / newly created in the cloud
     private Date mDate;
     private String mTitle;
-    private String mContents;
+    private String mDescription;
+    private String mTodo;
+    private Color mColor;
     private Set<String> mTags;
 
     public Note() {
@@ -28,23 +32,23 @@ public class Note {
         return mTags;
     }
 
-    public void setmTags(Set<String> mTags) {
+    private void setmTags(Set<String> mTags) {
         this.mTags = mTags;
     }
 
-    public String getmContents() {
-        return mContents;
+    public String getmDescription() {
+        return mDescription;
     }
 
-    public void setmContents(String mContents) {
-        this.mContents = mContents;
+    private void setmContents(String mDescription) {
+        this.mDescription = mDescription;
     }
 
     public String getmTitle() {
         return mTitle;
     }
 
-    public void setmTitle(String mTitle) {
+    private void setmTitle(String mTitle) {
         this.mTitle = mTitle;
     }
 
@@ -56,11 +60,28 @@ public class Note {
         return mSynced;
     }
 
-    public void setmSynced(boolean mSynced) {
+    private void setmSynced(boolean mSynced) {
         this.mSynced = mSynced;
     }
 
     public UUID getmId() {
         return mId;
     }
+
+    public String getmTodo() {
+        return mTodo;
+    }
+
+    public void setmTodo(String mTodo) {
+        this.mTodo = mTodo;
+    }
+
+    public Color getmColor() {
+        return mColor;
+    }
+
+    public void setmColor(Color mColor) {
+        this.mColor = mColor;
+    }
+
 }

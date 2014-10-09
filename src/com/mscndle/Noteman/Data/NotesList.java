@@ -1,4 +1,4 @@
-package com.mscndle.Noteman;
+package com.mscndle.Noteman.Data;
 
 import android.content.Context;
 

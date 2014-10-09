@@ -1,8 +1,7 @@
-package com.mscndle.Noteman;
+package com.mscndle.Noteman.Activities;
 
-import android.app.Activity;
 import android.app.Fragment;
-import android.os.Bundle;
+import com.mscndle.Noteman.Fragments.LandingPageFragment;
 
 public class LandingPageActivity extends SingleFragmentActivity {
 

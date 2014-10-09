@@ -1,9 +1,10 @@
-package com.mscndle.Noteman;
+package com.mscndle.Noteman.Activities;
 
 import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.os.Bundle;
+import com.mscndle.Noteman.R;
 
 /**
  * This class will be extended by all the other activity classes
@@ -28,5 +29,4 @@ public abstract class SingleFragmentActivity extends Activity {
             fm.beginTransaction().add(R.id.fragmentContainer, fragment).commit();
         }
     }
-
 }

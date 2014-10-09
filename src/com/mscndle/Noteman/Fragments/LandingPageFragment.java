@@ -1,13 +1,15 @@
-package com.mscndle.Noteman;
+package com.mscndle.Noteman.Fragments;
 
 import android.app.Fragment;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import com.mscndle.Noteman.Data.Note;
+import com.mscndle.Noteman.Data.NotesList;
+import com.mscndle.Noteman.R;
 
 import java.util.ArrayList;
 
