@@ -28,7 +28,8 @@ public class NoteFragment extends Fragment {
         super.onCreateView(inflater, container, savedInstanceState);
 
 
-        View v = inflater.inflate(R.layout.newnote_fragment, null);
+
+        View v = inflater.inflate(R.layout.note_fragment, null);
         return v;
     }
 }

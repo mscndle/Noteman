@@ -5,4 +5,7 @@
     <string name="new_note">CREATE</string>
     <string name="notes_list">LIST</string>
     <string name="search_by_tag">SEARCH</string>
+    <string name="note_title">Note title</string>
+    <string name="note_description">Note description</string>
+    <string name="note_todo">Note to do</string>
 </resources>
