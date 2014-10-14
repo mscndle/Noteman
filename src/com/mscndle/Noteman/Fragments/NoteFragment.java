@@ -1,6 +1,8 @@
 package com.mscndle.Noteman.Fragments;
 
 import android.app.Fragment;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,14 +22,12 @@ public class NoteFragment extends Fragment {
 
         //This could be a brand new note or a note opened for editing
         //Would it be possible to handle both cases here?
-
+        getActivity().getActionBar().setBackgroundDrawable(new ColorDrawable(Color.WHITE));
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreateView(inflater, container, savedInstanceState);
-
-
 
         View v = inflater.inflate(R.layout.note_fragment, null);
         return v;
