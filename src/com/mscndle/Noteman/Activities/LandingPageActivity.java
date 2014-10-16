@@ -9,3 +9,4 @@ public class LandingPageActivity extends SingleFragmentActivity {
         return new LandingPageFragment();
     }
 }
+

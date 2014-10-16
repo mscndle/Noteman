@@ -16,7 +16,6 @@ import com.mscndle.Noteman.R;
 
 import java.util.ArrayList;
 
-
 public class LandingPageFragment extends Fragment {
 
     private static final String TAG = "LandingPageFragment";
@@ -55,7 +54,4 @@ public class LandingPageFragment extends Fragment {
     public void onResume() {
         super.onResume();
     }
-
-
-
 }
